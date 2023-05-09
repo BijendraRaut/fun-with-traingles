@@ -12,7 +12,6 @@ function calculateArea() {
     Number(sides[0].value),
     Number(sides[1].value)
   );
-  //console.log(baseandHeight);
   const area = baseandHeight / 2;
   outputEl.innerText = `The area of traingle is ${area} cm²`;
 }
