@@ -4,11 +4,11 @@ const outputEl = document.querySelector(".output-text");
 
 const answers = ["90°", "right angled"];
 
-function checkScore() {
+function calculateScore() {
   let score = 0;
   let index = 0;
-  const formDetail = new FormData(quizForm);
-  for (let val of formDetail.values()) {
+  const data = new FormData(quizForm);
+  for (let val of data.values()) {
     if (val === answers[index]) {
       score++;
     }
@@ -17,4 +17,4 @@ function checkScore() {
   outputEl.innerText = "Your score is " + score;
 }
 
-checkBtn.addEventListener("click", checkScore);
+checkBtn.addEventListener("click", calculateScore);
