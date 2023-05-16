@@ -22,6 +22,10 @@ a {
     color: white;
 }
 
+.container {
+    max-width: 640px;
+}
+
 h1{
     padding: 1rem 0;
 }
@@ -36,8 +40,8 @@ label {
 input {
     border-radius: 0.3rem;
     border: 2px solid var(--primary-color);
-    height: 3vh;
-    width: 30%;
+    height: 4vh;
+    width: 40%;
    outline: white;
    display: block;
    margin: 1rem auto;
