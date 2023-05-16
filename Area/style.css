@@ -41,7 +41,6 @@ input {
    outline: white;
 }
 
-
 button {
     display: block;
     margin: 1rem auto;
@@ -51,4 +50,8 @@ button {
     border: none;
     border-radius: 0.4rem;
     font-size: large;
+}
+
+p{
+    font-size: x-large;
 }
