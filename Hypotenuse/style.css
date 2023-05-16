@@ -9,6 +9,8 @@
     --secondary-color: #fff;
 }
 
+
+
 nav{
     padding: 1rem 1rem 1rem 0;
     background-color: var(--primary-color);
@@ -25,9 +27,13 @@ a {
     color: var(--secondary-color);
 }
 
-h1{
-    padding: 1rem 0;
+.container {
+    max-width: 500px;
 }
+
+h1,h2,h3{
+    padding: 1rem 0;
+} 
 
 label {
     display: block;
@@ -38,11 +44,12 @@ label {
 
 input {
     border-radius: 0.3rem;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     height: 4vh;
-    width: 30%;
+    width: 60%;
    outline: var(--secondary-color);
-   max-width: 250px;
+   margin: 1rem auto;
+    max-width: 250px;
 }
 
 button {
@@ -56,6 +63,3 @@ button {
     font-size: large;
 }
 
-p{
-    font-size: x-large;
-}

@@ -1,16 +1,19 @@
 * {
     text-align: center;
     margin: auto;
+    box-sizing: border-box;
 }
 
 :root {
     --primary-color: #7c3aed;
+    --secondary-color: #fff;
 }
 
 nav{
-    padding: 1rem 0;
+    padding: 1rem 1rem 1rem 0;
     background-color: var(--primary-color);
     width: 100%;
+    text-align: right;
 }
 
 /* Anchor tag */
@@ -19,7 +22,7 @@ a {
     text-decoration: none;
     padding-left: 1rem;
     font-size: large;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .container {
@@ -42,7 +45,7 @@ input {
     border: 2px solid var(--primary-color);
     height: 4vh;
     width: 40%;
-   outline: white;
+   outline: var(--secondary-color);
    display: block;
    margin: 1rem auto;
 }
@@ -52,7 +55,7 @@ button {
     margin: 1rem auto;
     padding: 0.5rem;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     border: none;
     border-radius: 0.4rem;
     font-size: large;
