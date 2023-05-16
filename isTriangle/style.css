@@ -1,0 +1,59 @@
+* {
+    text-align: center;
+    margin: auto;
+}
+
+:root {
+    --primary-color: #7c3aed;
+}
+
+nav{
+    padding: 1rem 0;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+/* Anchor tag */
+
+a {
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: large;
+    color: white;
+}
+
+h1{
+    padding: 1rem 0;
+}
+
+label {
+    display: block;
+    padding: 1rem 0;
+    font-size: x-large;
+    color: var(--primary-color);
+}
+
+input {
+    border-radius: 0.3rem;
+    border: 2px solid var(--primary-color);
+    height: 3vh;
+    width: 30%;
+   outline: white;
+   display: block;
+   margin: 1rem auto;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: large;
+}
+
+p{
+    font-size: x-large;
+}
